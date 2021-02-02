@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #000;
+
+  font-family: Helvetica neue, roboto;
+  transition: background 1s ease-in-out;
+
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+.bg-color {
+  display: grid;
+  place-items: center;
+}
+#text {
+  padding: 0.5em;
+  font-size: x-large;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: #f7efef;
+}
+
+.info .command {
+  text-align: center;
+  color: #ffffff;
+}
